@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: tahoma;
+}
+p {
+	line-height: 22px;
+}
+
+/* Header section */
+
+header {
+	padding: 30px 0;
+}
+.container {
+	width: 1250px;
+	margin: auto;
+	overflow: hidden;
+}
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo a {}
+.logo a img {}
+nav {
+	width: 80%;
+	float: left;
+}
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+}
+nav ul li {
+	list-style-type: none;
+}
+nav ul li a {
+	text-decoration: none;
+	padding: 0 40px;
+	color: #897777;
+	font-size: 20px;
+	padding-right: 0;
+}
+
+/* Banner section */
+
+.banner-section img {
+	width: 100%;
+	max-width: 100%;
+}
+
+/* --- Gateway content section -- */
+
+.gateway-section {
+	padding: 50px 0;
+}
+.wrapper {
+	width: 1100px;
+	margin: auto;
+}
+.gateway-content {}
+.gateway-content a {
+	text-decoration: none;
+	color: #2b02029c;
+	text-transform: uppercase;
+}
+.gateway-content h2 {
+	color: black;
+	padding: 20px 0;
+}
+.gateway-content p {
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+/* Lifestyle section */
+
+.lifestyle-section {
+	padding: 26px 0;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.col-1-2 {
+	width: 45%;
+	flex-basis: 45%;
+}
+.col-1-2 img {
+	width: 100%;
+	display: block;
+}
+.col-1-2 a {
+	text-decoration: none;
+	color: #333333bf;
+	padding: 20px 0;
+	display: block;
+}
+.col-1-2 h2 {
+	margin: 0;
+	padding: 20px 0;
+}
+.col-1-2 p {
+	text-align: justify;
+	margin: 0;
+}
+
+/* Footer section */
+
+footer {
+	background-color: #f1f1f1;
+	padding: 30px 0;
+}
+.copyright {
+	width: 50%;
+}
+.copyright ul {
+	display: flex;
+	list-style-type: none;
+}
+.copyright ul li {}
+.copyright ul li a {
+	padding: 0 15px;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+.social {
+	width: 50%;
+}
+.social ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+}
+.social ul li {}
+.social ul li a {
+	padding: 0 15px;
+	color: black;
+}
+
+
+
